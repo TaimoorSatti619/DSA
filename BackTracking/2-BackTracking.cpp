@@ -7,6 +7,9 @@ unordered_map<int, bool> row;
 unordered_map<int, bool> upperDiagonal;
 unordered_map<int, bool> lowerDiagonal;
 
+
+// Question  =>    nQueen Problem  ------------------
+
 void addSolution(vector<vector<int>> &ans, vector<vector<int>> &board, int n) {
   vector<int> temp;
 
